@@ -15,3 +15,11 @@ Here are some funny constraints the problem carries:
 The general idea is to perform a bit of bit shifting, then run Newton's method.
 
 You can read more about [it and it,s history](https://en.wikipedia.org/wiki/Fast_inverse_square_root)
+
+## How to run:
+
+```bash
+docker build -t q_rsqrt . && docker run q_rsqrt 1234.5678
+```
+
+Will calculate the fast inverse square root of 1234.5678
